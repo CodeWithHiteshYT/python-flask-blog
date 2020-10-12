@@ -42,7 +42,7 @@ class Posts(db.Model):
     slug = db.Column(db.String(21),nullable=False)
     content = db.Column(db.String(120),nullable=False)
     date = db.Column(db.String(12), nullable=False)
-    img_file = db.Column(db.String(12), nullable=True)
+    img_file = db.Column(db.String(20), nullable=True)
     tagline = db.Column(db.String(120),nullable=False)
     
     
